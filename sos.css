@@ -1,8 +1,21 @@
+
 .sos{
     display: block;
     width: 60%;
     text-align: center;
-    border: 2px solid grey;
     margin-left: 5%;
-    box-shadow: 5px;
+    background-color: rgba(228, 233, 238, 0.842);
+}
+
+header{
+    background-image: url(img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: fill;
+}
+.text{
+    background-color: white;
+}
+.whitecolor{
+    color: white;
 }
