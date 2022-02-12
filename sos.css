@@ -1,10 +1,11 @@
 
 .sos{
-    display: block;
     width: 60%;
     text-align: center;
-    margin-left: 5%;
     background-color: rgba(228, 233, 238, 0.842);
+    margin: 0 ;
+    float: right;
+    margin-right: 13%;
 }
 
 header{
@@ -18,4 +19,14 @@ header{
 }
 .whitecolor{
     color: white;
+}
+.profile{
+    height: 50px;
+}
+.chatbox{
+    width: 20%;
+    
+}
+.block{
+    display: block;
 }
