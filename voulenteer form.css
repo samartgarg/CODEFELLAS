@@ -27,6 +27,13 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
+  border: 1px solid lightgray;
   border-radius: 5px;
   padding: 20px;
+}
+header{
+  background-image: url(voulenteer1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: fill;
 }
