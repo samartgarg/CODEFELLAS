@@ -1,3 +1,6 @@
+header{
+  background-image: url();
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -26,8 +29,8 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
-  color: white;
+  background-image: url(ABOUT US PAGE.jpeg);
+  color: black;
 }
 
 .container {
