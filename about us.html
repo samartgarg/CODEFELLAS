@@ -1,95 +1,134 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="D:\html basic\css\aboutus.css">
-    <title>ABOUT US</title>
-  </head>
-  <body><header> <div class="" >
-    <img src="D:\ABOUT US PAGE.jpeg" style="display: block; margin: 0 auto;">
-  </div>
-      <nav class="navbar">
-        <div class="mt-3" style="padding-right: 5%; padding-left: 5%;">
-            <a href="index.html" class="nav-link d-inline whitecolor">Home</a>
-            <a href="sos.html" class="nav-link d-inline whitecolor">SOS</a>
-            <a href="volunteer section.html" class="nav-link d-inline whitecolor">Voulenteer</a>
-        </div>
-        <div class="mt-3 text-right" style="padding-right: 5%; padding-left: 5%;">
-            <a href="#" class=" nav-link d-inline whitecolor">Help</a>
-         
-            <a href="about us.html" class=" nav-link d-inline whitecolor">About Us</a>
-            <a href="login.html" class=" nav-link d-inline whitecolor">Login/SignUp</a>
-        </div>
-        
-      </nav>
-      <div class="" >
-        <img src="img/logo.png" style="display: block; margin: 0 auto;">
-      </div>
-<div class="about-section"></HEAder>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: center;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 25%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
   <h1>About Us Page</h1>
-  <p>WE are students of MEDI-CAPS University.
-      <b>this site only serve as a prototypes and sole purpose is to think about this idea and not for hosting.</b>
-  </p>
+  <p>Some text about who we are and what we do.</p>
   <p>Resize the browser window to see that this page is responsive by the way.</p>
 </div>
 
 <h2 style="text-align:center">Our Team</h2>
 <div class="row">
-  <div class="column">
+  <div class="column" style="margin-left: 37.5%;">
     <div class="card">
-      <img src="img/MANAN.jpeg" alt="MANAN" style="width:100%">
+      <img src="img/MANAN.jpeg" alt="MANAN" style="width:50%">
       <div class="container">
         <h2>Manan Rathore</h2>
         <p class="title">DEVELOPER</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>mananrathore03@gmail.com</p>
         <p><a  href="https://www.linkedin.com/in/manan-rathore-94b319224/" _blank><button class="button" >Contact</button></a></p>
       </div>
     </div>
   </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="img/SAMART.jpeg" alt="SAMARTH" style="width:100%">
+  <div class="column" style="margin-left: 37.5%;">
+    <div class="card"  >
+      <img src="img/SAMART.jpeg" alt="SAMARTH" style="width:50%">
       <div class="container">
         <h2>Samarth Garg</h2>
         <p class="title"></div></p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>samarthgarg2153@gmail.com</p>
         <p><a  href="https://www.linkedin.com/in/samarth-garg-13637722a" _blank><button class="button" >Contact</button></a></p>
       </div>
     </div>
   </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="SALONI" style="width:100%">
+  <div class="column" style="margin-left: 37.5%;">
+    <div class="card" >
+      <img src="/w3images/team3.jpg" alt="SALONI" style="width:50%">
       <div class="container">
         <h2>Saloni Sharma</h2>
         <p class="title">DEVELOPER</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>salonisharma6902@gmail.com</p>
         <p><a  href="https://www.linkedin.com/in/saloni-sharma-a7ab12213" _blank><button class="button" >Contact</button></a></p>
       </div>
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="img/vartika.jpeg" alt="Vartika" style="width:100%">
+
+  <div class="column" style="margin-left: 37.5%;">
+    <div class="card" >
+      <img src="img/vartika.jpeg" alt="Vartika" style="width:50%">
       <div class="container">
         <h2>Vartika Bhawasar</h2>
         <p class="title">DEVELOPER</p>
-        <p>jane@example.com</p>
-        <p></p>
+        <p>vartikabhawsar20@gmail.com</p>
+        <p><a  href="https://www.linkedin.com/in/vartika-bhawsar-b4313a1b7/" _blank><button class="button" >Contact</button></a></p>
       </div>
     </div>
   </div>
+</div>
 
-  
 </body>
 </html>
